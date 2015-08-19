@@ -1,0 +1,157 @@
+html
+{
+ font-size:12px;
+}
+body
+{
+	font-family:Arial;
+	margin:0;
+	padding:0;
+	font-size:1rem;
+	color:#000;
+	width:100%;
+}
+
+h1
+{
+	font-size:2rem;
+}
+
+h2
+{
+	font-size:3rem;
+}
+
+a
+{
+	text-decoration:none;
+	border-bottom:2px dotted #FFF;
+}
+
+a:hover
+{
+	border-bottom:none;	
+}
+
+.display
+{
+   display:block;
+}
+.die
+{
+   display:none;
+}
+
+#mainheader
+{
+  text-align:center;
+}
+#mainheader h1
+{
+	color:#FFF;
+	text-transform:uppercase;
+	top:0px;
+	position:relative;
+	margin:0;
+	font-size:1.4rem;
+	padding:15px 25px;
+	background-color:rgba(255,255,255,0.2);
+	line-height:2;
+	
+	border-bottom-left-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-bottom-left-radius:5px;
+	
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-bottom-right-radius:5px;
+	
+	border:1px solid #FFF;
+	border-top:0;
+	font-weight:500;
+	cursor:pointer;
+	letter-spacing:2px;
+}
+
+#main_nav
+{
+	font-size:1.2rem;	
+}
+#main_nav > a
+{
+	color:#fff;
+	border:1px solid transparent;
+	transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-webkit-transition:all 0.3s linear;
+}
+
+#main_nav > a:hover
+{
+	border:1px solid #FFF;
+	background-color:rgba(255,255,255,0.3);
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#mainheader h2
+{
+	color:#FFF;
+	font-weight:500;
+}
+#footer p
+{
+	color:#FFF;
+	
+}
+#footer p a 
+{
+  color:#FFF;
+}
+
+#btn
+{
+	font-size:1.5em;
+	padding:15px 20px;
+	background-color:rgba(255,255,255,0.8);
+	display:inline;
+	border-radius:5px;
+	color:#F06292;
+	border:1px solid transparent;
+	transition:all 0.3s ease-in;
+	cursor:pointer;
+}
+
+#btn:hover
+{
+	background-color:transparent;
+	border:1px solid rgba(255,255,255,0.8);
+	color:#FFF;
+}
+.submenu-service
+{
+   background-color:#fff;
+   border-radius:5px;
+   list-style:none;
+     
+}
+.submenu-service li
+{
+  text-align:left;
+  color:#424242;
+  padding:10px 5px;
+  border-bottom:0.5px solid #212121;
+}
+.submenu-service li:nth-child(4)
+{
+  border-bottom:none;
+}
+.submenu-service li a
+{
+  color:#424242; 
+  transition:color 0.5 ease;
+}
+.submenu-service li a:hover
+{
+  color:#b71c1c;
+}

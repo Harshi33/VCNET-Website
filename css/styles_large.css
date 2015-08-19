@@ -1,0 +1,84 @@
+html
+{
+  font-size:12px;
+}
+body
+{
+   width:100%;
+   position:relative;
+   margin:0;
+   padding:0;
+}
+
+#mainheader
+{
+	background-image:url(../images/image.jpg);
+	background-size:cover;
+	height:550px;
+}
+
+#mainheader h1
+{
+	display:inline-block;
+	margin-bottom:50px;
+}
+
+#main_nav
+{
+	margin:40px auto;
+	position:absolute;
+	display:block;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+#main_nav a
+{
+	padding:10px;
+	border-bottom:0;
+	margin:5px 15px;	
+}
+
+a#menubreak
+{
+	margin-left:20em;
+}
+
+#mainheader h2
+{
+	padding:20px 10px;
+	font-size:2.3rem;
+}
+
+#footer
+{
+	margin:60px 0;
+}
+
+#footer p
+{
+	font-size:1.7rem;
+}
+
+#btn
+{
+	margin:20px 10px;
+}
+.submenu-service
+{
+   padding:0 0 10px 0;
+   margin-top:0;
+}
+.submenu-top
+{
+   width:150px;
+   height:60px;
+}
+.submenu-wp
+{
+  position:absolute;
+  left:22%;
+  top:-10px;
+  width:165px;
+}
